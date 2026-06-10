@@ -1,0 +1,14 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #f8f6f1;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font-family: inherit; }
+input  { font-family: inherit; }
+
+/* Prevent tap highlight on mobile */
+button { -webkit-tap-highlight-color: transparent; }
